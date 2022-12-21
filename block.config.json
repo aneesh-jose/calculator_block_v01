@@ -1,0 +1,13 @@
+{
+  "name": "calculator_block_v01",
+  "type": "function",
+  "source": {
+    "https": "https://github.com/aneesh-jose/calculator_block_v01",
+    "ssh": "git@github.com:aneesh-jose/calculator_block_v01.git"
+  },
+  "language": "nodejs",
+  "start": "node index.js",
+  "build": "",
+  "postPull": "npm i",
+  "standAloneBlock": false
+}
